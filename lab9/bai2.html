@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9-2</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <form action="xuly.php" method="post" enctype="multipart/form-data">
+        <label for="">HỌ VÀ TÊN:</label> <br>
+        <input type="text">
+        <br> <br>
+        <label for="">GIỚI TÍNH:</label> 
+        <label for=""><input type="radio" name="gender" checked>Nam </label>
+        <label for=""><input type="radio" name="gender" >Nữ</label> <br> <br>
+        <label for="">HÌNH ẢNH</label> <br>
+        <input type="file" name="photo" id=""> <br> <br>
+        <label for="">QUỐC TỊCH</label> <br>
+        <select >
+            
+            <option value="">Việt Nam </option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">JAPAN</option>
+        </select>
+        <br> <br>
+        <label for="">SỞ THÍCH</label> <br>
+        <label for=""><input type="checkbox">THỂ THAO</label>
+        <label for=""><input type="checkbox" checked>DU LỊCH</label>
+        <label for=""><input type="checkbox">ÂM NHẠC</label>
+        <label for=""><input type="checkbox">ẨM THỰC</label>
+<br> <br>
+        <label for="">GHI CHÚ</label>
+        <br>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+        <HR></HR>
+        <button type="submit">ĐĂNG KÝ</button>
+        <button type="reset">NHẬP LẠI</button>
+    </form>
+</body>
+</html>

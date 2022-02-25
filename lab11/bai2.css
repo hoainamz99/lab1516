@@ -1,0 +1,28 @@
+table{
+    width:80%;
+    
+}
+
+thead{
+    color:white;
+    background-color: blueviolet;
+    text-align: center;
+    height:100px;
+    
+}
+.b1{
+    color:black;
+    background-color: gray;
+    text-align: center;
+}
+.b2{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.b1 td{
+    border: 1px solid blue;
+}
+.b2 td{
+    border: 1px solid blue;
+}
